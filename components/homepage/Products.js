@@ -39,7 +39,7 @@ const ItemList = () => {
         {itemList.map((item) => (
           <div className="font-montserrat w-auto bg-light-gray rounded-md border-gray-200 border-2">
             <img
-              className="px-4 pt-2 h-[280px]"
+              className="px-4 pt-2 h-[240px] lg:h-[280px]"
               src={item.imgSrc}
             />
             <div className="px-4 py-2 flex flex-col gap-2">
