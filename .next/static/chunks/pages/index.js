@@ -3411,7 +3411,7 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('[{"id":0,"url":"/images/homepage/banner/banner_0_test.png"},{"id":1,"url":"/images/homepage/banner/banner_1_test.png"},{"id":2,"url":"/images/homepage/banner/banner_2_test.png"}]');
+module.exports = JSON.parse('[{"id":0,"url":"/images/homepage/banner/banner_0.png"},{"id":1,"url":"/images/homepage/banner/banner_1.png"},{"id":2,"url":"/images/homepage/banner/banner_2.png"}]');
 
 /***/ }),
 
