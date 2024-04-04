@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "question": "How does this work?",
+    "answer": "Honeybee Health is a mail order pharmacy based in California. Simply search for the medications you are on, add them to your cart and check out. Our pharmacists will get your prescription from your doctor or pharmacy and then fill your order and mail it to you. It’s that simple."
+  },
+  {
+    "id": 1,
+    "question": "Do you ship to my state?",
+    "answer": "We are currently licensed to ship to 49 states. You can see which ones here."
+  },
+  {
+    "id": 2,
+    "question": "How do I track my order?",
+    "answer": "We offer step tracking, through your account dashboard. You can learn more here"
+  },
+  {
+    "id": 3,
+    "question": "Can Honeybee Health fill my pet's prescriptions?",
+    "answer": "We can fill most prescriptions for your pets. You can learn more about how we support pet patients here."
+  }
+]

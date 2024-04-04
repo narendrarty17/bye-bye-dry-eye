@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "link": "home",
+    "linkText": "Home",
+    "url": "/"
+  },
+  {
+    "id": 1,
+    "link": "partners",
+    "linkText": "Partners",
+    "url": "/partners"
+  },
+  {
+    "id": 2,
+    "link": "aboutus",
+    "linkText": "About us",
+    "url": "/aboutus"
+  },
+  {
+    "id": 3,
+    "link": "support",
+    "linkText": "Support",
+    "url": "/support"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "imgSrc": "/images/homepage/process/process_01.webp",
+    "imgWidth": 20,
+    "mb": 4,
+    "title": "Consult with Dry Eye Expert",
+    "description": "Get a free consultation by making an call in +91-9919748714, he will examine you and based on that suggest appropriate product."
+  },
+  {
+    "id": 1,
+    "imgWidth": 16,
+    "imgSrc": "/images/homepage/process/process_02.webp",
+    "mb": 0,
+    "title": "Place your order",
+    "description": "Place the order from our site by adding the product in your cart, checkout and pay when you receive the product."
+  },
+  {
+    "id": 2,
+    "imgWidth": 16,
+    "imgSrc": "/images/homepage/process/process_03.webp",
+    "mb": 0,
+    "title": "Get your product at your doorsteps",
+    "description": "Our delivery partner will drop the product at your address."
+  }
+]
