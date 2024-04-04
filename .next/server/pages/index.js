@@ -293,7 +293,7 @@ module.exports = require("zlib");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('[{"id":0,"url":"/images/homepage/banner/banner_0.png"},{"id":1,"url":"/images/homepage/banner/banner_1.png"},{"id":2,"url":"/images/homepage/banner/banner_2.png"}]');
+module.exports = JSON.parse('[{"id":0,"url":"/images/homepage/banner/banner_0_test.png"},{"id":1,"url":"/images/homepage/banner/banner_1_test.png"},{"id":2,"url":"/images/homepage/banner/banner_2_test.png"}]');
 
 /***/ }),
 
