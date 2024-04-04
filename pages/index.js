@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <Banner />
       // padding bottom has been set temporarily
-      <div className="flex flex-col mt-16 pb-16 px-16 gap-16 text-black">
+      <div className="flex flex-col mt-16 pb-16 px-5 md:px-10 lg:px-16 gap-16 text-black">
         <Process />
         <ItemList />
         <Suggested />

@@ -34,12 +34,12 @@ const itemList = [
 const ItemList = () => {
   return (
     <div>
-      <h2 className="text-3xl text-dark-gray mb-8">Our Products</h2>
+      <h2 className="text-3xl text-dark-gray mb-8 flex justify-center lg:justify-start">Our Products</h2>
       <div className="flex flex-wrap flex-col md:flex-row items-center gap-10 md:justify-between">
         {itemList.map((item) => (
-          <div className="font-montserrat w-[320px] bg-light-gray rounded-md border-gray-200 border-2">
+          <div className="font-montserrat w-auto bg-light-gray rounded-md border-gray-200 border-2">
             <img
-              className="px-4 pt-2 h-[264px]"
+              className="px-4 pt-2 h-[280px]"
               src={item.imgSrc}
             />
             <div className="px-4 py-2 flex flex-col gap-2">
