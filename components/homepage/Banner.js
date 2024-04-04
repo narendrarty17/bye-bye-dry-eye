@@ -3,8 +3,18 @@ import bannerList from "@/public/data/homepage/bannerList.json";
 
 const Banner = () => {
   const [selectedBanner, setSelectedBanner] = useState(0);
+  const [isLargeScreen, setIsLargeScreen] = useState(true);
+
+  // Function to update screen size state
+  const updateScreenSize = () => {
+    setIsLargeScreen(window.innerWidth >= 992); // Assuming 'lg
+  }
 
   useEffect(() => {
+    // Update screen size state on initial render
+    updateScreenSize();
+    window.addEventListener('resize', updateScreenSize);
+
     // Auto-swipe
     let swipeInterval;
 
@@ -22,6 +32,7 @@ const Banner = () => {
       if (swipeInterval) {
         clearInterval(swipeInterval);
       }
+      window.removeEventListener('resize', updateScreenSize)
     };
   }, [selectedBanner]);
 
@@ -29,11 +40,18 @@ const Banner = () => {
     <div className="w-full">
       {bannerList
         .filter((_, index) => index === selectedBanner)
-        .map((banner) => (
-          <div key={banner.id} onClick={() => setSelectedBanner(banner.id)}>
-            <img className="w-[100vw]" src={banner.url} />
-          </div>
-        ))}
+        .map((banner) => {
+
+          const imageUrl = isLargeScreen
+            ? banner.url
+            : banner.url.replace(".png", "_mobile.png");
+
+          return (
+            <div key={banner.id} onClick={() => setSelectedBanner(banner.id)}>
+              <img className="w-[100vw]" src={imageUrl} />
+            </div>
+          )
+        })}
     </div>
   );
 };
